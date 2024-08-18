@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="car rental.css">
+    <title>Car Rental Service</title>
+</head>
+<body>
+    <header>
+        <h1><marquee>Car Rental Service</marquee></h1>
+        <p><marquee>Choose your car and book it online!</marquee></p>
+    </header>
+
+    <main>
+        <div class="car-list">
+            <div class="car-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZmMBFV1VdcXhsRy85ebg0ZLPWFDHjYkHizg&s" alt="Car 1">
+                <h2>Toyota</h2>
+                <p>Price: 4000 per day</p>
+                <button onclick="bookCar('Toyota ', 4000)">Book Now</button>
+            </div>
+
+            <div class="car-item">
+                <img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwR0-Qp-XQAhFb_NzEpnWrH8qD72pdDMFWPQ&s" alt="Car 2">
+                <h2>Honda</h2>
+                <p>Price:3000 per day</p>
+                <button onclick="bookCar('Honda', 3000)">Book Now</button>
+            </div>
+
+            <div class="car-item">
+                <img src="https://www.india.ford.com/content/ford/in/en_in/home/cars/jcr:content/par/splitter_390263490/splitter0/image/image.imgs.full.high.jpg/1536677597839.jpg" alt="Car 3">
+                <h2>Ford</h2>
+                <p>Price:6000 per day</p>
+                <button onclick="bookCar('Ford', 6000)">Book Now</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Car Rental Service</p>
+    </footer>
+
+    <script src="car rental.js"></script>
+
+</body>
+</html>
